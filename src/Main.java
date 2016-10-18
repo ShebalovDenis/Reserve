@@ -11,6 +11,13 @@ public class Main {
 		   arr[i] = (int)(Math.random()*1000);
 		   System.out.print(arr[i] + " ");
 		}
+		 
+		 Shaker.shaker(arr);
+		 System.out.println();
+		 System.out.println("Отсортированный шейкером рандомный массив:");
+		 for(int i = 0; i < arr.length; i++){
+			   System.out.print(arr[i]+" ");
+			}
 	}
 
 }
