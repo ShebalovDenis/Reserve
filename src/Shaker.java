@@ -17,4 +17,5 @@ public class Shaker {
 		}
 		return arr;
 	}
+	//ура! для cherry-pick
 }
