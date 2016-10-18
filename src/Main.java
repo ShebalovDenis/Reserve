@@ -5,7 +5,7 @@ public class Main {
 			//Создал Main
 		int n = (int)(Math.random()*100) + 1;
 		int[] arr = new int[n];
-		System.out.println("Рандомный массив:");
+		System.out.println("Рандомный массив из " + n + " чисел:");
 
 		 for(int i = 0; i < arr.length; i++){
 		   arr[i] = (int)(Math.random()*1000);
