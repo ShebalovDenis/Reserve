@@ -17,7 +17,15 @@ public class Main {
 		 System.out.println("Отсортированный шейкером рандомный массив:");
 		 for(int i = 0; i < arr.length; i++){
 			   System.out.print(arr[i]+" ");
-			}
+		}
+		 
+
+		 Bubble.bubble(arr);
+		 System.out.println();
+		 System.out.println("Отсортированный пузырьком рандомный массив:");
+		 for(int i = 0; i < arr.length; i++){
+			   System.out.print(arr[i]+" ");
+		}
 	}
 
 }
